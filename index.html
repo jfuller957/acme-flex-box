@@ -21,8 +21,24 @@
   <div>
     <span id="users">Users</span>
   </div>
-  <div id="createUser">
-
+  <div id="userBox">
+    <div id="createUser">
+      <form>
+        <span>First Name</span>
+        <input type="text" name="First Name" id="firstName"><br>
+        <span>Last Name</span>
+        <input type="text" name="Last Name" id="lastName"><br>
+        <select name="Department" id="department">
+          <option value="default">-- None --</option>
+          <option value="frontEnd">Front End</option>
+          <option value="backEnd">Back End</option>
+          <option value="devOps">Dev Ops</option>
+          <option value="scrum">Scrum Master</option>
+        </select>
+        <button type="reset">Clear</button>
+        <button type="submit">Save</button>
+      </form>
+    </div>
   </div>
   <div id="userTextBoxes">
     <div class="loremUsers"><span class="title">User A<br><br><span class="copy">ipsum dolor sit amet.</span></span></div>
