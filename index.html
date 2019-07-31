@@ -25,19 +25,34 @@
     <div id="createUserBox">
       <span id="createUserTitle">Create A User</span>
       <form>
-        <span>First Name</span>
-        <input type="text" name="First Name" id="firstName"><br>
-        <span>Last Name</span>
-        <input type="text" name="Last Name" id="lastName"><br>
-        <select name="Department" id="department">
-          <option value="default">-- None --</option>
-          <option value="frontEnd">Front End</option>
-          <option value="backEnd">Back End</option>
-          <option value="devOps">Dev Ops</option>
-          <option value="scrum">Scrum Master</option>
-        </select>
-        <button type="reset">Clear</button>
-        <button type="submit">Save</button>
+        <div>
+          <div>
+            <span class="nameLine">First Name</span>
+            <input type="text" name="First Name" id="firstName" placeholder="James">
+          </div>
+        </div>
+        <div>
+          <div>
+            <span class="nameLine">Last Name</span>
+            <input type="text" name="Last Name" id="lastName" placeholder="Fuller">
+          </div>
+        </div>
+        <div>
+          <div>
+            <span>Department</span>
+            <select name="Department" id="department">
+              <option value="default">-- None --</option>
+              <option value="frontEnd">Front End</option>
+              <option value="backEnd">Back End</option>
+              <option value="devOps">Dev Ops</option>
+              <option value="scrum">Scrum Master</option>
+            </select>
+          </div>
+        </div>
+        <div id="buttonsDiv">
+          <button type="reset">Clear</button>
+          <button type="submit">Save</button>
+        </div>
       </form>
     </div>
   </div>

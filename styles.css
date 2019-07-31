@@ -7,6 +7,14 @@ body > div {
   width: 100%;
 }
 
+button {
+  width: 50px;
+}
+
+#buttonsDiv {
+  display: flex;
+}
+
 #navBar {
   width: 100%;
   padding: 10px;
@@ -27,9 +35,13 @@ body > div {
 
 #navBar > div > a {
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-decoration: none;
 
+}
+
+#lastName {
+  float: right;
 }
 
 #brand {
@@ -43,18 +55,30 @@ body > div {
 }
 
 #createUserTitle {
+  font-weight: bold;
   font-size: 2rem;
+  color: #666666;
+
 }
 
 #createUserBox {
   border: solid 1px black;
   border-radius: 5px;
-  width: 300px;
+  width: 50%;
   height: 200px;
-
+  padding: 20px;
 }
 
-form {
+input {
+  width: 60%;
+}
+
+.nameLine {
+  align-content: flex-start;
+  width: 30%;
+}
+
+form > div {
   display: flex;
   flex-direction: column;
 }
@@ -78,7 +102,7 @@ form {
 #userTextBoxes > div {
   display: flex;
   border: solid 1px black;
-  border-radius: 5px;
+  border-radius: 15px;
   height: 100px;
   width: calc(100%/3 - 2rem);
   margin: 1rem;
@@ -88,6 +112,10 @@ form {
  font-size: 24px;
  font-weight: bold;
  justify-content: center;
+}
+
+#userBox {
+  justify-content: center;
 }
 
 .header {
